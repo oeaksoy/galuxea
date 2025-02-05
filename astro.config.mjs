@@ -9,3 +9,10 @@ export default defineConfig({
   site: "https://oeaksoy.github.io",
   base: "/galuxea"
 });
+
+
+{
+  experimental: {
+    responsiveImages: true,
+  },
+}
