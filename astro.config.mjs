@@ -8,11 +8,7 @@ export default defineConfig({
   integrations: [tailwind(), react()],
   site: "https://oeaksoy.github.io",
   base: "/galuxea"
-});
-
-
-{
   experimental: {
     responsiveImages: true,
   },
-}
+});
