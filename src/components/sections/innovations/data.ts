@@ -1,32 +1,32 @@
-import imgGrid from "./assets/inno-grid.webp";
-import imgSolar from "./assets/inno-panel.webp";
-import imgWind from "./assets/inno-wind.webp";
+import imgGrid from "./assets/UVC_image.jpg";
+import imgSolar from "./assets/Permanent_image.jpg";
+import imgWind from "./assets/Proven_image.png";
 
 export const innovationsSection = {
   title: "Latest Innovations",
-  subheading1_1: "Discover Our Cutting-edge",
-  subheading1_2: " Green Energy Technologies",
+  subheading1_1: "Discover our cutting-edge",
+  subheading1_2: " technology approach",
   innovations: [
     {
-      title: "Smart Grid Integration",
+      title: "Eco-friendly",
       description:
-        "Revolutionize energy distribution with our smart grid technology, optimizing efficiency, minimizing wastage, and adapting to demand fluctuations. Stay connected with innovative solutions for a sustainable, cost-effective energy ecosystem. Embrace the future with our cutting-edge smart grid integration, enhancing reliability and paving the way for efficiency and sustainability.",
+        "Bioluminescence inspired low intensity UVC light, maintain clean surface on objects under water.",
       visual: imgGrid,
     },
     {
-      title: "Advanced Solar Panel Design",
+      title: "Permanent",
       description:
-        "Boost solar efficiency with our state-of-the-art solar panel designs. Our innovative technologies capture more sunlight, ensuring maximum energy production for your home or business. Experience enhanced sustainability and increased energy output with our advanced solar solutions.",
+        "Permanent placement in submarine surfaces for years in different oceans around the planet.",
       visual: imgSolar,
     },
     {
-      title: "Next-gen Wind Turbines",
+      title: "Proven",
       description:
-        "Transform your wind energy experience with our next-generation wind turbines. Our sleek design, enhanced efficiency, and minimal environmental impact underscore our commitment to innovation. Elevate your sustainable energy journey with cutting-edge wind solutions that prioritize both performance and environmental responsibility.",
+        "Proven complete prevention of microorganisms and biofouling from accumulating on any surface.",
       visual: imgWind,
     },
   ],
   visual: "innovations-section-image.jpg",
-  callToAction: "Explore the Future of Green Energy with [Company Name]",
+  callToAction: "Explore the Future with Galuxea",
   button: "Learn More",
 };

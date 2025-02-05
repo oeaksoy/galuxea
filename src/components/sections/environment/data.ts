@@ -2,15 +2,14 @@ import img from "./assets/green-hands.png";
 
 export const environmentalImpactSection = {
   title: "Environmental Impact",
-  subheading1_1: "Choosing [Company Name] for a",
-  subheading1_2: " Greener Tomorrow",
+  subheading1_1: "Menko Remmelts",
+  subheading1_2: "CEO & Co-founder",
   description:
-    "At [Company Name], we are committed to making a positive impact on the environment. By choosing our sustainable energy solutions, you contribute to:",
+    "The almost invisible UVC light from our tiny LEDs prevents growth on a 10 centimeter surface. We are now scaling and integrating our product to any application and surface. This will  prevent bio-fouling from any object in a sustainable way",
   impactPoints: [
     "Reducing Carbon Emissions",
     "Conserving Natural Resources",
     "Preserving Biodiversity",
-    "Mitigating Climate Change",
     "Promoting a Cleaner and Healthier Planet",
   ],
   visual: img,

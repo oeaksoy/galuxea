@@ -1,4 +1,4 @@
-import img1 from "./assets/solar3.png";
+import img1 from "./assets/hydro.png";
 import img2 from "./assets/wind.png";
 // TODO
 import img3 from "./assets/hydro.png";
@@ -8,24 +8,24 @@ import img5 from "./assets/smart-grid.png";
 import img6 from "./assets/green.png";
 
 export const servicesSectionData = {
-  title: "Our Sustainable Energy Solutions",
+  title: "",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
-    text1_2: "Embrace Innovation, Embrace Sustainability.",
+    text1_1: "Revolutionary Solution",
+    text1_2: "Sustainable Biofouling Protection ",
     text2:
-      "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
+      "Based on 10+ years of successful testing in oceans around the world, using integrated low-emission UVC light. Galuxea provides custom solution for any surface excluding vessels, which are managed by other partners.*",
   },
   services: [
     {
-      title: "Solar Power Solutions",
+      title: "Sub-water Solutions",
       briefDescription:
-        "Harness the power of the sun with our state-of-the-art solar panels. Generate clean energy for your home or business and reduce your carbon footprint.",
+        "Non-toxic",
       visual: img1,
     },
     {
-      title: "Wind Energy Harvesting",
+      title: "Hydropower Systems",
       briefDescription:
-        "Embrace the power of the wind. Our wind energy solutions provide a sustainable and efficient way to generate electricity, ensuring a greener future.",
+        "Flow with nature",
       visual: img2,
     },
     {

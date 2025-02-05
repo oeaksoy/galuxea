@@ -67,7 +67,17 @@ html {
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
   /* padding: 30px 30px 30px 30px; */
 }
-.logo-h {
-  width: 289px;
-  height: 85px !important;
+.logo-a{
+  gap: 0 !important;
+  display: block !important;
+}
+.logo {
+  display: block !important;
+  height: auto !important;
+}
+.logo div {
+
+}
+.logo img {
+  max-height: 50px !important;
 }

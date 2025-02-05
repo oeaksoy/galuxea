@@ -17,7 +17,7 @@ const { className } = Astro.props;
 
 <section id="environment" class=`${className}`>
   <Container>
-    <Title2>{environmentalImpactSection.title}</Title2>
+    
   </Container>
   <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12 ">
     <!-- <div
@@ -27,7 +27,7 @@ const { className } = Astro.props;
       class="max-w-md mr-auto w-11/12 flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col"
     >
       <SubTitle2>
-        {environmentalImpactSection.subheading1_1}
+        {environmentalImpactSection.subheading1_1}<br />
         <GradiantText>{environmentalImpactSection.subheading1_2}</GradiantText>
       </SubTitle2>
       <Paragraph>
@@ -47,9 +47,9 @@ const { className } = Astro.props;
           ))
         }
       </ul>
-      <div class="pt-10">
+<!--  <div class="pt-10">
         <CtaButton>{environmentalImpactSection.button}</CtaButton>
-      </div>
+      </div> -->
     </div>
     <div
       class="midmd:max-w-none flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto"

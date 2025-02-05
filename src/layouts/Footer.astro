@@ -3,35 +3,15 @@ import GroupFooterNav from "../components/blocks/GroupFooterNav.astro";
 import Container from "../components/shared/Container.astro";
 import FooterNav from "../components/shared/FooterNav.astro";
 import Paragraph from "../components/shared/Paragraph.astro";
-
+const year = new Date().getFullYear()
 const footerNav1 = [
   {
-    itemText: "Marketing",
-    itemLink: "#",
-  },
-  {
-    itemText: "Analylitics",
-    itemLink: "#",
-  },
-  {
-    itemText: "Commerce",
-    itemLink: "#",
-  },
-  {
-    itemText: "Insights",
+    itemText: "Antifouling",
     itemLink: "#",
   },
 ];
 
 const footerSupport = [
-  {
-    itemText: "Pricing",
-    itemLink: "#",
-  },
-  {
-    itemText: "Guides",
-    itemLink: "#",
-  },
   {
     itemText: "FAQ",
     itemLink: "#",
@@ -48,27 +28,15 @@ const footerCompany = [
     itemLink: "#",
   },
   {
-    itemText: "Blog",
-    itemLink: "#",
-  },
-  {
     itemText: "Jobs",
     itemLink: "#",
   },
   {
-    itemText: "Parteners",
-    itemLink: "#",
-  },
-  {
-    itemText: "Jobs",
+    itemText: "Partners",
     itemLink: "#",
   },
 ];
 const footerLegal = [
-  {
-    itemText: "Claim",
-    itemLink: "#",
-  },
   {
     itemText: "Privacy",
     itemLink: "#",
@@ -90,18 +58,17 @@ const footerLegal = [
           <div class="h-full">
             <a href="#" class="relative flex items-center gap-3">
               <div class="inline-flex text-lg font-semibold text-heading-1">
-                [Company Name]
+                G A L U X E A
               </div>
             </a>
             <Paragraph className={"mt-8"}>
-              Elevating Sustainability through Innovative Solutions for a
-              Greener Tomorrow.
+              Our solution in harmony with nature replaces current toxic, energy and labour-intensive solutions to safeguard our oceans and biodiversity.
             </Paragraph>
           </div>
 
           <!-- social links -->
           <div class="min-h-max flex items-center gap-4 text-heading-3 mt-8">
-            <a href="#" class="transition hover:text-heading-1 hover:scale-105">
+    <!--    <a href="#" class="transition hover:text-heading-1 hover:scale-105">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -115,9 +82,9 @@ const footerLegal = [
                 ></path>
               </svg>
               <span class="sr-only">social link</span>
-            </a>
+            </a> -->
 
-            <a href="#" class="transition hover:text-heading-1 hover:scale-105">
+            <a href="https://www.linkedin.com/company/galuxea" class="transition hover:text-heading-1 hover:scale-105">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -133,7 +100,7 @@ const footerLegal = [
               <span class="sr-only">social link</span>
             </a>
 
-            <a href="#" class="transition hover:text-heading-1 hover:scale-105">
+    <!--    <a href="#" class="transition hover:text-heading-1 hover:scale-105">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -163,7 +130,7 @@ const footerLegal = [
                 ></path>
               </svg>
               <span class="sr-only">social link</span>
-            </a>
+            </a> -->
           </div>
         </div>
 
@@ -184,15 +151,15 @@ const footerLegal = [
           class="flex justify-between items-center gap-6 md:text-lg text-heading-3"
         >
           <div>
-            &copy; <span id="year"></span> [Company Name]. All right reserved
+            &copy; <span id="year">{year}</span> Galuxea. All right reserved
           </div>
-          <div>
+       <!-- <div>
             Made by <a
               href="https://github.com/vbartalis"
               target="_blank"
               class="font-semibold">vbartalis</a
             >
-          </div>
+          </div>--> 
         </div>
       </Container>
     </div>
