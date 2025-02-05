@@ -4,6 +4,12 @@ import Navitem from "../components/shared/Navitem.astro";
 import BtnLink from "../components/shared/BtnLink.astro";
 import BtnThemeSwitch from "../components/shared/BtnThemeSwitch.astro";
 
+import { Image } from "astro:assets";
+import logoImg from "../../public/logo.png";
+
+
+
+
 const navItems = [
   {
     href: "#",
@@ -45,7 +51,7 @@ const navItems = [
       <a href="https://www.galuxea.com" class="relative flex items-center gap-3 logo-a">
         <div class="logo relative h-7 overflow-hidden flex rounded-xl">
           <div class="logo-container">
-            <img src="https://oeaksoy.github.io/galuxea/public/ilogo.png">
+            <Image src={logoImg} alt="Logo" />
           </div>
         </div>
       </a>
